@@ -1,5 +1,11 @@
 :root {
   font-family: Inter, sans-serif;
+  --deep-dark-color: #040306;
+  --semi-dark-color: #0e1823;
+  --medium-color: #1b414b;
+  --light-color: #fbfbfb;
+  --btn-header-bg-color: #1b414b80;
+  --btn-footer-bg-color: #fafafa4d;
 }
 
 .title {
@@ -7,4 +13,22 @@
   font-size: 48px;
   line-height: 1;
   letter-spacing: -0.02em;
+}
+
+/* visualy hidden class */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.hidden {
+  display: none;
 }
