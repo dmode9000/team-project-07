@@ -15,7 +15,6 @@
   letter-spacing: -0.02em;
 }
 
-/* visualy hidden class */
 .visually-hidden {
   position: absolute;
   width: 1px;
