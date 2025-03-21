@@ -8,6 +8,11 @@
   --btn-footer-bg-color: #fafafa4d;
 }
 
+body {
+  background-color: var(--semi-dark-color);
+  color: var(--light-color);
+}
+
 .title {
   font-weight: 500;
   font-size: 48px;
