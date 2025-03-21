@@ -1,1 +1,63 @@
+.header .container {
+  padding-block: 20px;
+}
 
+.header-block {
+  position: relative;
+  border: 1px solid var(--light-color);
+  background-color: var(--light-color);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 20px;
+  z-index: 9999;
+}
+
+.header-logo {
+  color: var(--medium-color);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.03em;
+}
+
+.header-mobmenu-buttons {
+  position: relative;
+  width: 28px;
+  height: 28px;
+}
+
+.header-open-mobmenu-btn,
+.header-close-mobmenu-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0;
+  background-color: var(--light-color);
+}
+.header-close-mobmenu-btn {
+  display: none;
+}
+.header-close-mobmenu-btn.is-open {
+  display: block;
+}
+
+.header-open-mobmenu-icon {
+  display: block;
+  stroke: #055545;
+}
+.header-close-mobmenu-icon {
+  display: block;
+  fill: #055545;
+}
+
+.header-logo {
+}
+.header-close-mobmenu-btn {
+}
+.header-close-mobmenu-icon {
+}
+.header-open-mobmenu-btn {
+}
+.header-open-mobmenu-icon {
+}
