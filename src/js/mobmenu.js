@@ -6,6 +6,7 @@
     closeMobMenu: document.querySelector('[data-mobmenu-close]'),
     // Додати атрибут data-mobmenu на бекдроп модалки
     mobmenu: document.querySelector('[data-mobmenu]'),
+    closeButton: document.querySelector('[data-close-button]'),
   };
 
   refs.openMobMenu.addEventListener('click', toggleMobMenu);
@@ -14,5 +15,6 @@
   function toggleMobMenu() {
     // is-open це клас який буде додаватися/забиратися на бекдроп при натисканні на кнопки
     refs.mobmenu.classList.toggle('is-open');
+    refs.closeButton.classList.toggle('is-open');
   }
 })();
