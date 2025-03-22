@@ -30,6 +30,7 @@
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 12px;
   padding: 14px 18px;
+  height: 42px;
   color: var(--light-color);
   font-size: 12px;
   font-weight: 400;
@@ -94,6 +95,7 @@
   }
   .rent-input {
     padding: 18px 18px;
+    height: 54px;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.29;
@@ -102,7 +104,7 @@
     height: 116px;
   }
 }
-@media only screen and (min-width: 1140px) {
+@media only screen and (min-width: 1280px) {
   .rent-container {
     display: flex;
     flex-direction: row-reverse;
@@ -110,6 +112,9 @@
   }
   .title {
     margin-bottom: 47px;
+  }
+  .fullform {
+    margin: 0;
   }
   .con-inputs {
     margin-bottom: 47px;
