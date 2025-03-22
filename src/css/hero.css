@@ -1,5 +1,6 @@
-.hero {
-    background-color: rgb(44, 40, 40);
+.hero-container {
+    padding-top: 178px;
+    padding-bottom: 243px;
 }
 
 .title-hero {
@@ -19,6 +20,8 @@
     text-align: center;
     color: rgba(251, 251, 251, 0.7);
     margin-bottom: 38px;
+
+    
 }
 
 .nav-hero {
@@ -28,11 +31,85 @@
     letter-spacing: -0.02em;
     color: #fbfbfb;
     flex-direction: row;
-    gap: 10px;
     border-radius: 15px;
     padding: 14px 32px;
-    width: 141px;
+    min-width: 141px;
     height: 46px;
     background: #1b414b;
-    margin: 0 auto;
+    display: flex;
+    justify-self: center;
+    align-items: center;  
+    cursor: pointer; 
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2. 1) ;
 }
+
+.nav-hero:hover,
+.nav-hero:focus {
+    background: #fbfbfb;
+    color: #1b414b;
+} 
+
+@media only screen and (min-width: 768px) {
+.container {
+    max-width: 768px;
+    padding: 0 32px;
+    padding-top: 180px;
+    padding-bottom: 215px;
+    }
+
+.title-hero {
+    font-size: 70px;
+    }
+
+.text-hero {
+    margin-bottom: 48px;
+    font-size: 16;
+    line-height: 1.4;
+    margin-bottom: 48px;
+    }
+                
+.nav-hero {
+    min-width: 179px;
+    height: 52px;
+    font-size: 18px;
+    line-height: 1.1;
+    padding: 16px 40px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .container {
+    max-width: 1280px;
+    padding-top: 135px;
+    padding-bottom: 215px;
+        }
+    
+        .title-hero {
+    font-size: 80px;
+        }
+    
+        .text-hero {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 48px;
+    }
+    
+        .nav-hero {
+    font-size: 18px;
+    line-height: 1.1;
+    display: flex;
+    padding: 16px 40px;
+    min-width: 179px;
+    height: 52px;
+        }
+}
+
+
+
+
+
+
+
+
+
