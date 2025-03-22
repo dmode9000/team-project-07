@@ -8,7 +8,7 @@
   background-color: var(--semi-dark-color);
   pointer-events: none;
   opacity: 0;
-  transform: translateX(-100%); /* Зміщення вліво */
+  transform: translateX(-100%);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1),
     transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -17,7 +17,7 @@
 .mobmenu-backdrop.is-open {
   opacity: 1;
   pointer-events: auto;
-  transform: translateX(0); /* Без зміщення */
+  transform: translateX(0);
 }
 
 .mobmenu-backdrop .container {
@@ -28,42 +28,19 @@
   padding-bottom: 40px;
 }
 
-/* .mobmenu-head-block {
-  border: 1px solid var(--light-color);
-  background-color: var(--light-color);
-  border-radius: 8px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 7px 20px;
-} */
-/* .mobmenu-head-logo {
-  color: var(--medium-color);
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: -0.03em;
-} */
-/* .mobmenu-head-close-btn {
-  padding: 0;
-  background-color: transparent;
-} */
-
-/* .mobmenu-head-close-btn-icon {
-  display: block;
-  fill: #055545;
-} */
-
 .mobmenu-nav-block {
   margin-top: clamp(20px, calc(40vh - 120px), 200px);
-
   margin-inline: auto;
   flex-grow: 1;
 }
+
 .mobmenu-nav-list {
 }
+
 .mobmenu-nav-item:not(:last-child) {
   margin-bottom: 4px;
 }
+
 .mobmenu-nav-link {
   display: block;
   text-align: center;
@@ -74,49 +51,39 @@
   min-width: 91px;
   padding-block: 15px;
   background: var(--btn-header-bg-color);
+  transition: background-color 250ms ease;
 }
 
-.mobmenu-nav-link:hover {
+.mobmenu-nav-link:hover,
+.mobmenu-nav-link:focus {
   background-color: var(--medium-color);
 }
+
+.mobmenu-nav-link:focus {
+  border: var(--light-color) 1px solid;
+}
+
 .mobmenu-social-list {
   margin-top: 20px;
   display: flex;
   margin-inline: auto;
   gap: 8px;
 }
+
 .mobmenu-social-item {
 }
+
 .mobmenu-social-link {
   display: block;
-  /* margin: 0; */
 }
+
 .mobmenu-social-icon {
   display: block;
   fill: var(--light-color);
+  opacity: 0.7;
+  transition: opacity 250ms ease;
 }
 
-/* debug styles */
-* {
-  /* outline: 1px solid #7b7b7b2e !important; */
-  /* background-color: hsl(50 100% 50% / 0.1) !important; */
-  /* box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.5) !important; */
-  /* color: hsla(0, 0%, 0%, 0.49) !important; */
+.mobmenu-social-icon:hover {
+  opacity: 1;
 }
-
-/* header .container {
-  position: relative;
-}
-
-header .container::after {
-  content: '';
-  position: absolute;
-  top: 0px; 
-  left: 0px; 
-  width: 100%;
-  height: 300px; 
-  background-size: auto;
-  background-position: center;
-  background-image: url(https://img.freepik.com/free-vector/winter-blue-pink-gradient-background-vector_53876-117276.jpg?t=st=1742489924~exp=1742493524~hmac=81feb849841b4189e5a391b7a8ee9062e3c2f33cf73be30774675b394ea1144b&w=996);
-  z-index: -1; 
-} */
