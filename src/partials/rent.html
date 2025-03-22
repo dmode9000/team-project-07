@@ -1,48 +1,55 @@
 <section>
   <div class="container rent-container">
-    <h2 class="title">Rent a yacht now</h2>
-    <form class="rent-form">
-      <div class="con-inputs">
-        <label class="label hidden" for="username">Full name</label>
-        <input
-          class="rent-input"
-          type="text"
-          name="username"
-          id="username"
-          placeholder="Full Name"
-          required
-        />
-        <label class="label hidden" for="user-email">Email</label>
-        <input
-          class="rent-input"
-          type="email"
-          name="user-email"
-          id="user-email"
-          placeholder="Email"
-          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-          required
-        />
-        <label class="label hidden" for="user-phone">Phone number</label>
-        <input
-          class="rent-input"
-          type="tel"
-          name="user-phone"
-          id="user-phone"
-          placeholder="Phone number"
-          pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
-          required
-        />
-        <label class="label hidden" for="user-comment">Comment</label>
-        <textarea
-          class="user-comment"
-          name="user-comment"
-          required
-          id="user-comment"
-          placeholder="Comment"
-        ></textarea>
-      </div>
-      <button class="btn-rent" type="submit">Send</button>
-    </form>
-    <img src="" alt="yach image in the see" />
+    <div class="fullform">
+      <h2 class="title">Rent a yacht now</h2>
+      <form class="rent-form">
+        <div class="con-inputs">
+          <label class="label hidden" for="username">Full name</label>
+          <input
+            class="rent-input"
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Full Name"
+            required
+          />
+          <label class="label hidden" for="user-email">Email</label>
+          <input
+            class="rent-input"
+            type="email"
+            name="user-email"
+            id="user-email"
+            placeholder="Email"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            required
+          />
+          <label class="label hidden" for="user-phone">Phone number</label>
+          <input
+            class="rent-input"
+            type="tel"
+            name="user-phone"
+            id="user-phone"
+            placeholder="Phone number"
+            pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
+            required
+          />
+          <label class="label hidden" for="user-comment">Comment</label>
+          <textarea
+            class="rent-input rent-textarea"
+            name="user-comment"
+            required
+            id="user-comment"
+            placeholder="Comment"
+          ></textarea>
+        </div>
+        <button class="btn-rent" type="submit">Send</button>
+      </form>
+    </div>
+    <img
+      class="rent-img"
+      srcset="./img/rent/image-rent.png 1x ./img/rent/image-rent@2x 2x"
+      src="./img/rent/image-rent.png"
+      alt="yach image in the see"
+    />
   </div>
 </section>
