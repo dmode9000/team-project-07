@@ -1,0 +1,38 @@
+.hero {
+    background-color: rgb(44, 40, 40);
+}
+
+.title-hero {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+    margin-bottom: 24px;
+}
+
+.text-hero {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.17;
+    text-align: center;
+    color: rgba(251, 251, 251, 0.7);
+    margin-bottom: 38px;
+}
+
+.nav-hero {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 15px;
+    padding: 14px 32px;
+    width: 141px;
+    height: 46px;
+    background: #1b414b;
+    margin: 0 auto;
+}
