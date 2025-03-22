@@ -66,11 +66,6 @@
   color: var(--medium-color);
 }
 
-.rent-img {
-  width: 100%;
-  height: 412px;
-}
-
 @media only screen and (min-width: 768px) {
   .rent-container {
     padding-top: 75px;
@@ -106,9 +101,6 @@
   .rent-textarea {
     height: 116px;
   }
-  .rent-img {
-    height: 534px;
-  }
 }
 @media only screen and (min-width: 1140px) {
   .rent-container {
@@ -121,8 +113,5 @@
   }
   .con-inputs {
     margin-bottom: 47px;
-  }
-  .rent-img {
-    width: 658px;
   }
 }
