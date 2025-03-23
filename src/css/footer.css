@@ -11,9 +11,8 @@
 }
 
 /* #region Logo */
-.logo {
+.footer-logo {
   display: flex;
-  position: relative;
   align-items: center;
   margin-top: 40px;
   margin-left: 14px;
@@ -26,11 +25,11 @@
 /* #region Footer navigation */
 .footer-nav {
   list-style: none;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 4px;
+  margin: 0 auto; /* Центрируем элементы */
+  display: flex; /* Включаем Flexbox */
+  flex-direction: row; /* Располагаем элементы горизонтально */
+  justify-content: center; /* Центрируем элементы по горизонтали */
+  gap: 4px; /* Расстояние между элементами */
   margin-top: 40px;
   margin-right: 14px;
   margin-left: 103px;
@@ -41,13 +40,13 @@
 
   align-items: center;
   justify-content: center;
-  width: 50px;
-  height: 30px;
+  width: 50px; /* Уменьшенная ширина */
+  height: 30px; /* Уменьшенная высота */
   color: #fbfbfb;
-  background: rgba(251, 251, 251, 0.3);
-  border-radius: 8px;
-  text-transform: uppercase;
-  font-size: 9px;
+  background: rgba(251, 251, 251, 0.3); /* Полупрозрачный фон */
+  border-radius: 8px; /* Скругленные углы */
+  text-transform: uppercase; /* Преобразование текста в верхний регистр */
+  font-size: 9px; /* Уменьшенный размер шрифта */
 }
 
 .footer-nav li:hover {
@@ -123,23 +122,11 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
-  .footer-nav {
-    gap: 12px;
-  }
-
-  .footer-nav li {
-    width: 100px;
-    height: 50px;
-    font-size: 14px;
-  }
-
-  .footer-icons img {
-    width: 32px;
-    height: 32px;
-  }
-
+@media (max-width: 768px) {
   .footer-text {
-    font-size: 16px;
+  }
+  .footer-nav {
+  }
+  .footer-nav li {
   }
 }
