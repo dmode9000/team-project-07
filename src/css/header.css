@@ -1,7 +1,9 @@
 .header .container {
   padding-block: 20px;
 }
-
+.header {
+  
+}
 .header-block {
   position: relative;
   border: 1px solid var(--light-color);
@@ -70,7 +72,7 @@
   display: none;
 }
 
-.mobile-list-social-link {
+.list-social-link {
    display: none;
 }
 
@@ -110,7 +112,7 @@
       padding: 15px 25px;
       transition: background-color 250ms ease;
     }
-    .mobile-list-social-link {
+    .list-social-link {
       display: flex;
       flex-direction: row;
       gap: 11px;
@@ -121,6 +123,8 @@
       display: flex;
       align-items: center;
       justify-content: center;
+    }
+    .icon-link-social {
       fill: #1b414b;
       transition: fill 250ms ease;
     }
@@ -128,7 +132,7 @@
           background-color: #1b414b;
          }
         
-    .list-social-link:hover, .list-social-link:focus {
+    .icon-link-social:hover, .icon-link-social:focus {
       fill: #062730;
     }
 }
