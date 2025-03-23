@@ -1,48 +1,91 @@
-<section>
+<section id="section-rent">
   <div class="container rent-container">
-    <h2 class="title">Rent a yacht now</h2>
-    <form class="rent-form">
-      <div class="con-inputs">
-        <label class="label hidden" for="username">Full name</label>
-        <input
-          class="rent-input"
-          type="text"
-          name="username"
-          id="username"
-          placeholder="Full Name"
-          required
-        />
-        <label class="label hidden" for="user-email">Email</label>
-        <input
-          class="rent-input"
-          type="email"
-          name="user-email"
-          id="user-email"
-          placeholder="Email"
-          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-          required
-        />
-        <label class="label hidden" for="user-phone">Phone number</label>
-        <input
-          class="rent-input"
-          type="tel"
-          name="user-phone"
-          id="user-phone"
-          placeholder="Phone number"
-          pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
-          required
-        />
-        <label class="label hidden" for="user-comment">Comment</label>
-        <textarea
-          class="user-comment"
-          name="user-comment"
-          required
-          id="user-comment"
-          placeholder="Comment"
-        ></textarea>
-      </div>
-      <button class="btn-rent" type="submit">Send</button>
-    </form>
-    <img src="" alt="yach image in the see" />
+    <div class="fullform">
+      <h2 class="title">Rent a yacht now</h2>
+      <form class="rent-form">
+        <div class="con-inputs">
+          <input
+            class="rent-input"
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Full Name"
+            aria-label="Full Name"
+            autocomplete="name"
+            required
+          />
+          <input
+            class="rent-input"
+            type="email"
+            name="user-email"
+            id="user-email"
+            placeholder="Email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+            aria-label="Email"
+            autocomplete="email"
+            required
+          />
+          <input
+            class="rent-input"
+            type="tel"
+            name="user-phone"
+            id="user-phone"
+            placeholder="Phone number"
+            pattern="\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}"
+            aria-label="Phone number"
+            autocomplete="tel"
+            required
+          />
+          <textarea
+            class="rent-input rent-textarea"
+            name="user-comment"
+            id="user-comment"
+            placeholder="Comment"
+            aria-label="Comment"
+            required
+          ></textarea>
+        </div>
+        <button class="btn-rent" type="submit" aria-label="Send">Send</button>
+      </form>
+    </div>
+    <picture>
+      <!-- Mobile -->
+      <source
+        srcset="
+          ./img/rent/image-rent-mobile.png    1x,
+          ./img/rent/image-rent-mobile@2x.png 2x
+        "
+        media="(max-width: 767px)"
+        width="335"
+        height="412"
+      />
+
+      <!-- Tablet -->
+      <source
+        srcset="
+          ./img/rent/image-rent-tablet.png    1x,
+          ./img/rent/image-rent-tablet@2x.png 2x
+        "
+        media="(max-width: 1279px)"
+        width="704"
+        height="534"
+      />
+
+      <!-- Desktop -->
+      <source
+        srcset="
+          ./img/rent/image-rent-desktop-small.png    1x,
+          ./img/rent/image-rent-desktop-small@2x.png 2x
+        "
+        media="(min-width: 1280px)"
+        width="658"
+      />
+
+      <!-- Fallback Image -->
+      <img
+        src="./img/rent/image-rent-mobile.png"
+        alt="A large sailing yacht in the night sea"
+      />
+    </picture>
   </div>
 </section>

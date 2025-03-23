@@ -1,22 +1,121 @@
-.container {
-}
 .rent-container {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .title {
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .title {
+    font-size: 28px;
+  }
 }
 .rent-form {
+  margin-bottom: 80px;
 }
+
 .con-inputs {
   display: flex;
   flex-direction: column;
   gap: 18px;
+  margin-bottom: 40px;
 }
 .rent-input {
+  background-color: transparent;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 12px;
+  padding: 14px 18px;
+  height: 42px;
+  color: var(--light-color);
+  font-size: 12px;
+  line-height: 1.17;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.user-comment {
+.rent-textarea {
+  height: 108px;
+}
+.rent-input::placeholder {
+  color: rgba(251, 251, 251, 0.4);
+}
+.rent-input:focus,
+.rent-input:hover {
+  border: 1px solid rgba(251, 251, 251, 0.5);
 }
 .btn-rent {
-  width: 122px;
   padding: 14px 0;
-  margin-top: 0;
+  width: 122px;
+  border-radius: 15px;
+  background-color: var(--medium-color);
+  color: var(--light-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-rent:focus,
+.btn-rent:hover {
+  background-color: var(--light-color);
+  color: var(--medium-color);
+}
+
+@media only screen and (min-width: 768px) {
+  .rent-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+  .title {
+    text-align: left;
+    margin-bottom: 50px;
+  }
+  .rent-form {
+    margin-bottom: 100px;
+  }
+  .fullform {
+    width: 473px;
+    margin: 0 auto;
+  }
+  .con-inputs {
+    margin-bottom: 50px;
+  }
+  .btn-rent {
+    padding: 18px 0;
+    width: 194px;
+    font-size: 18px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+  }
+  .rent-input {
+    padding: 18px 18px;
+    height: 54px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.29;
+  }
+  .rent-textarea {
+    height: 116px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .rent-container {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+  }
+  .title {
+    margin-bottom: 47px;
+  }
+  .fullform {
+    margin: 0;
+  }
+  .con-inputs {
+    margin-bottom: 47px;
+  }
 }
