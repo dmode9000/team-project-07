@@ -1,7 +1,9 @@
 .header .container {
   padding-block: 20px;
 }
-
+.header {
+  
+}
 .header-block {
   position: relative;
   border: 1px solid var(--light-color);
@@ -70,7 +72,7 @@
   display: none;
 }
 
-.mobile-list-social-link {
+.list-social-link {
    display: none;
 }
 
