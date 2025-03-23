@@ -25,11 +25,11 @@
 /* #region Footer navigation */
 .footer-nav {
   list-style: none;
-  margin: 0 auto; /* Центрируем элементы */
-  display: flex; /* Включаем Flexbox */
-  flex-direction: row; /* Располагаем элементы горизонтально */
-  justify-content: center; /* Центрируем элементы по горизонтали */
-  gap: 4px; /* Расстояние между элементами */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 4px;
   margin-top: 40px;
   margin-right: 14px;
   margin-left: 103px;
@@ -40,18 +40,18 @@
 
   align-items: center;
   justify-content: center;
-  width: 50px; /* Уменьшенная ширина */
-  height: 30px; /* Уменьшенная высота */
+  width: 50px;
+  height: 30px;
   color: #fbfbfb;
-  background: rgba(251, 251, 251, 0.3); /* Полупрозрачный фон */
-  border-radius: 8px; /* Скругленные углы */
-  text-transform: uppercase; /* Преобразование текста в верхний регистр */
-  font-size: 9px; /* Уменьшенный размер шрифта */
+  background: rgba(251, 251, 251, 0.3);
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-size: 9px;
 }
 
 .footer-nav li:hover {
   color: #1b414b;
-  background-color: #fbfbfb; /* Изменение цвета фона при наведении */
+  background-color: #fbfbfb;
 }
 
 /* #region Footer icons */
@@ -110,23 +110,117 @@
   display: flex;
   align-items: center;
 }
-/* #region Footer Media queries */
-@media (max-width: 1280px) {
-  footer {
-    max-width: 100%;
-    margin: 20px;
+/* #region Footer Media queries
+@media screen and (max-width: 1280px) {
+  .footer {
+    display: flex;
+    border-radius: 24px 24px 0 0;
+    width: 1230px;
+    height: 418px;
   }
+
   .footer-nav li {
-    width: 70px;
-    font-size: 8px;
+    width: 91px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 9px;
+  }
+  .footer-nav li:hover {
+    color: #1b414b;
+    background-color: #fbfbfb;
+  }
+  .footer-icons {
+    display: flex;
+
+    margin-right: 75px;
+    margin-left: 167px;
+    list-style: none;
+    justify-content: center;
+  }
+  .footer-icons use {
+    fill: #fbfbfb;
+  }
+  .footer-icons use:hover {
+    opacity: 80%;
+  }
+  .footer-text {
+    display: flex;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+    margin-top: 40px;
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+  .copyright {
+    margin-top: 99px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #fbfbfb;
+    line-height: 118%;
+    letter-spacing: 0.03em;
+    display: flex;
+    opacity: 40%;
+    justify-content: center;
+  }
+  .copyright ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+  .copyright li {
+    display: flex;
+    align-items: center;
   }
 }
 
-@media (max-width: 768px) {
-  .footer-text {
+@media screen and (max-width: 767px) {
+  .footer {
+    display: flex;
+    background: #1b414b;
+    color: #fbfbfb;
+    border-radius: 24px 24px 0 0;
+    width: 736px;
+    height: 418px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .footer-logo {
+    margin-top: 50px;
+    margin-left: 48px;
   }
   .footer-nav {
+    display: flex;
+    margin-top: 50px;
+    margin-right: 227px;
+    margin-left: 228px;
   }
-  .footer-nav li {
+  .footer-nav li:hover {
+    color: #1b414b;
+    background-color: #fbfbfb;
+  }
+  .footer-text {
+    display: flex;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+    margin-top: 50px;
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+  .copyright {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 118%;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: rgba(251, 251, 251, 0.4);
   }
 }
+*/
