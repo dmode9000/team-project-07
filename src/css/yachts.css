@@ -1,11 +1,8 @@
-.section-yachts {
-    padding: 80px 0;
-}
-
 .container-yachts {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 40px 0;
 }
 
 .yacht-title {
@@ -126,6 +123,11 @@
 }
 
 @media screen and (min-width: 767px) {
+
+    .container-yachts {
+        padding: 75px 0;
+    }
+
     .yacht-list {
         display: flex;
         gap: 32px;
