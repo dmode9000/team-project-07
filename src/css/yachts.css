@@ -2,10 +2,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .yacht-title {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
     max-width: 310px;
     font-size: 28px;
     text-align: center;
@@ -122,10 +125,11 @@
     }
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
 
     .container-yachts {
-        padding: 75px 0;
+        padding-top: 75px;
+        padding-bottom: 75px;
     }
 
     .yacht-list {
@@ -138,10 +142,10 @@
     }
 
     .yacht-title {
-        max-width: 610px;
+        max-width: 620px;
         margin-bottom: 75px;
         font-size: 48px;
-        text-indent: 0;
+        text-indent: 6px;
     }
 }
 
