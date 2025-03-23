@@ -9,7 +9,7 @@
     line-height: 1;
     letter-spacing: -0.02em;
     text-align: center;
-    color: #fbfbfb;
+    color: var(--light-color);
     margin-bottom: 24px;
 }
 
@@ -29,13 +29,13 @@
     font-size: 14px;
     line-height: 1.29;
     letter-spacing: -0.02em;
-    color: #fbfbfb;
+    color: var(--light-color);
     flex-direction: row;
     border-radius: 15px;
     padding: 14px 32px;
     min-width: 141px;
     height: 46px;
-    background: #1b414b;
+    background: var(--medium-color);
     display: flex;
     justify-self: center;
     align-items: center;  
@@ -46,8 +46,8 @@
 
 .nav-hero:hover,
 .nav-hero:focus {
-    background: #fbfbfb;
-    color: #1b414b;
+    background: var(--light-color);
+    color: var(--medium-color);
 } 
 
 @media only screen and (min-width: 768px) {
