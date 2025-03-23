@@ -1,6 +1,6 @@
 .hero-container {
     padding-top: 178px;
-    padding-bottom: 243px;
+    padding-bottom: 122px;
 }
 
 .title-hero {
@@ -51,11 +51,9 @@
 } 
 
 @media only screen and (min-width: 768px) {
-.container {
-    max-width: 768px;
-    padding: 0 32px;
+.hero-container {
     padding-top: 180px;
-    padding-bottom: 215px;
+    padding-bottom: 108px;
     }
 
 .title-hero {
@@ -79,10 +77,9 @@
 }
 
 @media only screen and (min-width: 1280px) {
-    .container {
-    max-width: 1280px;
-    padding-top: 135px;
-    padding-bottom: 215px;
+    .hero-container {
+    padding-top: 123px;
+    padding-bottom: 90px;
         }
     
         .title-hero {
