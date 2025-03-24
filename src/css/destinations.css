@@ -16,6 +16,7 @@
     line-height: 48px;
     letter-spacing: -2%;
     text-align: center;
+    color: #FBFBFB;
 
 }
 .title {
@@ -32,16 +33,49 @@ text-align: center;
 
 }
 .destinations-list {
+width: 335;
+height: 412;
+border-radius: 24px;
+
 }
 .destinations-item {
+    background-color: var(--light-color);
+    padding: 16px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .destinations-info {
 }
 .destinations-cruise {
+color: #0E1823;
+font-family: Inter;
+font-weight: 500;
+font-size: 16px;
+line-height: 120%;
+letter-spacing: -4.5%;
+text-transform: uppercase;
+
 }
 .destinations-list-description {
+color: #0E1823;
+font-family: Inter;
+font-weight: 500;
+font-size: 14px;
+line-height: 118%;
+letter-spacing: 3%;
+text-transform: uppercase;
+
 }
 .destinations-list-time {
+color: #0E1823;
+font-family: Inter;
+font-weight: 400;
+font-size: 14px;
+line-height: 118%;
+letter-spacing: 3%;
+
 }
 .caribbean {
 }
