@@ -6,6 +6,24 @@
   --light-color: #fbfbfb;
   --btn-header-bg-color: #1b414b80;
   --btn-footer-bg-color: #fafafa4d;
+  --bg-gradient: linear-gradient(
+    360deg,
+    rgb(14 24 35 / 93%) 15.05%,
+    rgb(14 24 35 / 40%) 75.3%,
+    rgb(14 24 35 / 0%) 98.27%
+  );
+  --bg-image-set-tel: image-set(
+    url('/img/background/bg-tel.jpg') 1x,
+    url('/img/background/bg-tel@2x.jpg') 2x
+  );
+  --bg-image-set-tab: image-set(
+    url('/img/background/bg-tab.jpg') 1x,
+    url('/img/background/bg-tab@2x.jpg') 2x
+  );
+  --bg-image-set-dsk: image-set(
+    url('/img/background/bg-desk.jpg') 1x,
+    url('/img/background/bg-desk@2x.jpg') 2x
+  );
 }
 
 body {
