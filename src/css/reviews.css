@@ -1,34 +1,7 @@
-/* common */
-
-.review {
-  min-width: 320px;
-  max-width: 375px;
-  padding: 0 20px;
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin: 0 auto;
-  }
-}
-
 /* reviews */
-
-.reviews {
-  padding-top: 80px;
-  padding-bottom: 80px;
-  background-color: var(--semi-dark-color);
+.reviews .container {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .reviews-title {
@@ -99,8 +72,11 @@
   width: 100%;
 }
 
+
 @media screen and (min-width: 768px) {
-  .review {
+ .reviews .container {
+    padding-top: 75px;
+    padding-bottom: 75px;
     padding-left: 32px;
     padding-right: 32px;
   }
@@ -138,7 +114,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .review {
+  .reviews .container {
     padding-left: 50px;
     padding-right: 50px;
   }
