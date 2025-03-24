@@ -68,8 +68,6 @@
   .reviews .container {
     padding-top: 75px;
     padding-bottom: 75px;
-    padding-left: 32px;
-    padding-right: 32px;
   }
 
   .reviews-title {
@@ -95,11 +93,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .reviews .container {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-
   .reviews-title {
     max-width: 854px;
   }

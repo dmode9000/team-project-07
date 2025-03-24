@@ -2,6 +2,11 @@
 .footer .container {
   padding-top: 40px;
 }
+@media only screen and (min-width: 768px) {
+  .footer .container {
+    padding-top: 75px;
+  }
+}
 
 .footer-wrapper {
   background-color: var(--medium-color);
