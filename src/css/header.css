@@ -204,4 +204,7 @@
   .header-list-link {
     cursor: pointer;
   }
+  .header .container {
+    padding: 50px 100px;
+  }
 }
