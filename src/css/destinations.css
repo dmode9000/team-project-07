@@ -26,9 +26,8 @@ body {
     margin-bottom: 40px;
 
 }
-.title {
 
-}
+
 .destinations-title-coment {
 font-family: Inter;
 font-weight: 300;
@@ -40,9 +39,12 @@ text-align: center;
 
 }
 .destinations-list {
-width: 335;
-height: 412;
-border-radius: 24px;
+    display: flex;
+    width: 335px;
+    height: 412px;
+    border-radius: 24px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 
 }
 .destinations-item {
@@ -86,11 +88,8 @@ line-height: 118%;
 letter-spacing: 3%;
 
 }
-.caribbean {
 
-}
-.seychelles {
-}
+
 
 
 
@@ -99,12 +98,14 @@ letter-spacing: 3%;
     .caribbean {
         display: none;
     }
-    .destinations-title-coment {
-        display: none;
-    }
+    
 }
+
 @media screen and (max-width: 1279px) {
     .seychelles {
+        display: none;
+    }
+    .destinations-title-coment {
         display: none;
     }
 }
