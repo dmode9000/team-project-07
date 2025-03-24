@@ -128,5 +128,6 @@
 
   .reviews-list {
     gap: 26px;
+    justify-content: center;
   }
 }
