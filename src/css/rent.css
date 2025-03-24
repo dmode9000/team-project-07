@@ -109,6 +109,9 @@
     flex-direction: row-reverse;
     gap: 50px;
   }
+  .rent-form {
+    margin-bottom: 0;
+  }
   .title {
     margin-bottom: 47px;
   }
