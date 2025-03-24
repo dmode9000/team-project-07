@@ -1,0 +1,120 @@
+.about-content-box {
+    border-radius: 24px;
+    width: 335px;
+    height: 675px;
+    background: #fbfbfb;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .about-content-box {
+        width: 704px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .about-content-box {
+        width: 1180px;
+    }
+}
+
+.about-subtitle {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .about-subtitle{
+        font-size: 48px;
+        max-width: 536px;
+        margin-bottom: 50px;
+        padding-top: 50px;
+        padding-left: 32px;
+    }
+}
+
+
+@media screen and (min-width: 1280px) {
+    .about-subtitle {
+        font-size: 48px;
+        padding-left: 50px;
+
+    }
+}
+
+
+
+.subtext-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    width: 295px;
+    height: 176px;
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width:768px) {
+    .subtext-container {
+        width: 389px;
+        height: 187px;
+        padding-left: 32px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .subtext-container {
+        padding-top: 50px;
+        padding-right: 50px;
+    }
+
+    .text-container {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 100px;
+        gap: 189px;
+    }
+}
+
+.about-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+}
+
+@media screen and (min-width:768px) {
+    .about-text{
+        font-weight: 23px;
+    }
+}
+
+
+.about-subtext {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: -0.02em;
+    color: #040306;
+    opacity: 0.4;
+}
+
+@media screen and (min-width:768px) {
+    .about-subtext {
+        font-size: 13px;
+        line-height: 1.15;
+    }
+}
+
+.about-img {
+    width: 100%;
+}
