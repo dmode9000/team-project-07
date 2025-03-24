@@ -99,10 +99,3 @@
     padding: 50px;
   }
 }
-
-* {
-  outline: 1px solid #7efff02e !important;
-  /* background-color: hsl(50 100% 50% / 0.1) !important; */
-  /* box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.5) !important; */
-  /* color: hsla(0, 0%, 0%, 0.49) !important; */
-}
