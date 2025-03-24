@@ -1,0 +1,119 @@
+.advantages .container {
+  padding-inline: 20px;
+  padding-block: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .advantages .container {
+    padding-inline: 32px;
+    gap: 32px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .advantages .container {
+    padding-inline: 50px;
+  }
+}
+
+.advantages-text-block {
+  background-color: var(--medium-color);
+  border-radius: 24px;
+  padding: 80px 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .advantages-text-block {
+    padding: 90px 32px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .advantages-text-block {
+    max-width: 714px;
+    padding-inline: 50px;
+  }
+}
+
+.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .advantages-list {
+    justify-content: center;
+    gap: 44px 32px;
+  }
+}
+
+.advantages-item {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .advantages-item {
+    width: 304px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .advantages-item {
+    width: 291px;
+  }
+}
+
+.advantages-item-number {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  padding-bottom: 18px;
+  border-bottom: 1px rgba(251, 251, 251, 0.1) solid;
+}
+
+@media only screen and (min-width: 768px) {
+  .advantages-item-number {
+    font-size: 32px;
+  }
+}
+
+.advantages-item-text {
+  padding-top: 18px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+}
+
+@media only screen and (min-width: 768px) {
+  .advantages-item-text {
+    font-size: 13px;
+  }
+}
+
+.advantages-image-block {
+  border-radius: 24px;
+  overflow: hidden;
+  max-width: 335px;
+}
+
+@media only screen and (min-width: 768px) {
+  .advantages-image-block {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .advantages-image-block {
+    width: 432px;
+    flex-shrink: 0;
+  }
+}
+
+.advantages-image {
+  width: 100%;
+}

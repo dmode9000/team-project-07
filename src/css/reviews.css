@@ -1,137 +1,115 @@
 /* reviews */
-.container {
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-.reviews {
-    background-color: var(--semi-dark-color);
+.reviews .container {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .reviews-title {
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 1;
-    letter-spacing: -0.02em;
-    text-align: center;
-    color: #fbfbfb;
-    margin-bottom: 25px;
-    max-width: 335px;
-    margin-right: auto;
-    margin-left: auto;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin-bottom: 25px;
+  max-width: 335px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .reviews-text {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: -0.02em;
-    text-align: center;
-    color: #fbfbfb;
-    opacity: 0.4;
-    margin-bottom: 40px;
-    margin-left: auto;
-    margin-right: auto;
-
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  text-align: center;
+  opacity: 0.4;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .reviews-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-    border-radius: 24px;
-    width: 335px;
-    height: 282px;
-    background-color: #fbfbfb;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 24px;
+  max-width: 335px;
+  min-height: 282px;
+  padding: 0 15px 15px;
+  background-color: var(--light-color);
 }
 
 .reviews-container.none,
 .reviews-container.none-2 {
-    display: none;
+  display: none;
 }
 
 .reviews-img {
-    padding-top: 32px;
-    margin-bottom: 24px;
+  margin-top: 32px;
+  margin-bottom: 24px;
 }
 
 .reviews-list-subtitle {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 1.1;
-    letter-spacing: -0.02em;
-    text-align: center;
-    color: #040306;
-    margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: var(--deep-dark-color);
+  margin-bottom: 8px;
 }
 
 .reviews-list-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.4;
-    letter-spacing: -0.02em;
-    text-align: center;
-    color: rgba(4, 3, 6, 0.4);
-    width: 303px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(4, 3, 6, 0.4);
 }
 
 @media screen and (min-width: 768px) {
+  .reviews .container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 
-    .container {
-        padding-top: 75px;
-        padding-bottom: 75px;
-        padding-left: 32px;
-        padding-right: 32px;
-    }
+  .reviews-title {
+    font-size: 48px;
+    max-width: 704px;
+  }
 
-    .reviews-title {
-        font-size: 48px;
-        max-width: 704px;
-    }
+  .reviews-text {
+    font-size: 14px;
+    line-height: 1.29;
+    margin-bottom: 75px;
+    max-width: 571px;
+  }
 
-    .reviews-text {
-        font-size: 14px;
-        line-height: 1.29;
-        margin-bottom: 75px;
-        max-width: 571px;
-    }
+  .reviews-list {
+    display: flex;
+    gap: 32px;
+  }
 
-    .reviews-container {
-        width: 336px;
-        height: 282px;
-    }
-
-    .reviews-list {
-        display: flex;
-        gap: 32px;
-    }
-
-    .reviews-container.none {
-        display: flex;
-    }
+  .reviews-container.none {
+    display: flex;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .container {
-        padding-left: 50px;
-        padding-right: 50px;
-    }
+  .reviews .container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 
-    .reviews-title {
-        max-width: 854px;
-    }
+  .reviews-title {
+    max-width: 854px;
+  }
 
-    .reviews-container.none-2 {
-        display: flex;
-    }
+  .reviews-container.none-2 {
+    display: flex;
+  }
 
-    .reviews-container {
-        width: 376px;
-        height: 282px;
-    }
-
-    .reviews-list {
-        gap: 26px;
-    }
+  .reviews-list {
+    gap: 26px;
+    justify-content: center;
+  }
 }
