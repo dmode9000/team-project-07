@@ -89,14 +89,11 @@
   letter-spacing: -0.03em;
   color: var(--medium-color);
 }
-.header-close-mobmenu-btn {
-}
-.header-close-mobmenu-icon {
-}
-.header-open-mobmenu-btn {
-}
-.header-open-mobmenu-icon {
-}
+
+/* .header-close-mobmenu-btn {} */
+/* .header-close-mobmenu-icon {} */
+/* .header-open-mobmenu-btn {} */
+/* .header-open-mobmenu-icon {} */
 
 .header-nav {
   display: none;
@@ -183,9 +180,11 @@
   .header-block {
     padding: 4px 30px;
   }
+
   .header-list-link {
     cursor: pointer;
   }
+
   .header .container {
     padding-inline: 100px;
   }

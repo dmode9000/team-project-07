@@ -34,8 +34,7 @@
   flex-grow: 1;
 }
 
-.mobmenu-nav-list {
-}
+/* .mobmenu-nav-list {} */
 
 .mobmenu-nav-item:not(:last-child) {
   margin-bottom: 4px;
@@ -70,8 +69,7 @@
   gap: 8px;
 }
 
-.mobmenu-social-item {
-}
+/* .mobmenu-social-item {} */
 
 .mobmenu-social-link {
   display: block;

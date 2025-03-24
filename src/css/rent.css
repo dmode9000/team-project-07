@@ -20,6 +20,7 @@
     font-size: 28px;
   }
 }
+
 .rent-form {
   margin-bottom: 80px;
 }
@@ -30,6 +31,7 @@
   gap: 18px;
   margin-bottom: 40px;
 }
+
 .rent-input {
   background-color: transparent;
   border: 1px solid rgba(251, 251, 251, 0.2);
@@ -41,16 +43,20 @@
   line-height: 1.17;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .rent-textarea {
   height: 108px;
 }
+
 .rent-input::placeholder {
   color: rgba(251, 251, 251, 0.4);
 }
+
 .rent-input:focus,
 .rent-input:hover {
   border: 1px solid rgba(251, 251, 251, 0.5);
 }
+
 .btn-rent {
   padding: 14px 0;
   width: 122px;
@@ -76,20 +82,25 @@
     padding-top: 75px;
     padding-bottom: 75px;
   }
+
   .title {
     text-align: left;
     margin-bottom: 50px;
   }
+
   .rent-form {
     margin-bottom: 100px;
   }
+
   .fullform {
     width: 473px;
     margin: 0 auto;
   }
+
   .con-inputs {
     margin-bottom: 50px;
   }
+
   .btn-rent {
     padding: 18px 0;
     width: 194px;
@@ -97,6 +108,7 @@
     line-height: 1.1;
     letter-spacing: -0.02em;
   }
+
   .rent-input {
     padding: 18px 18px;
     height: 54px;
@@ -104,6 +116,7 @@
     font-weight: 400;
     line-height: 1.29;
   }
+
   .rent-textarea {
     height: 116px;
   }
@@ -114,15 +127,19 @@
     flex-direction: row-reverse;
     gap: 50px;
   }
+
   .rent-form {
     margin-bottom: 0;
   }
+
   .title {
     margin-bottom: 47px;
   }
+
   .fullform {
     margin: 0;
   }
+
   .con-inputs {
     margin-bottom: 47px;
   }

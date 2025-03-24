@@ -2,6 +2,7 @@
 .footer .container {
   padding-top: 40px;
 }
+
 @media only screen and (min-width: 768px) {
   .footer .container {
     padding-top: 75px;
@@ -33,6 +34,7 @@
     padding-inline: 77px;
   }
 }
+
 /*footer logo*/
 .footer-nav-block {
   display: flex;
@@ -63,6 +65,7 @@
   display: flex;
   gap: 4px;
 }
+
 /*footer nav*/
 .footer-nav-link {
   display: block;
@@ -86,6 +89,7 @@
 .footer-nav-link:focus {
   border: var(--light-color) 1px solid;
 }
+
 /*footer social*/
 .footer-social-list {
   display: flex;
@@ -112,6 +116,7 @@
 .footer-social-icon:hover {
   opacity: 1;
 }
+
 /*footer text*/
 .footer-slogan-text {
   font-size: 18px;
@@ -140,6 +145,7 @@
     margin-inline: auto;
   }
 }
+
 /*footer copyright*/
 .footer-copyright-text {
   font-weight: 300;
