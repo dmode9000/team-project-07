@@ -10,6 +10,11 @@
   margin-bottom: 40px;
 }
 
+.rent-wrapper {
+  overflow: hidden;
+  border-radius: 24px;
+}
+
 @media screen and (max-width: 767px) {
   .title {
     font-size: 28px;
