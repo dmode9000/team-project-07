@@ -1,10 +1,10 @@
 /* footer */
-.footer .container {
+.footer {
   padding-top: 40px;
 }
 
 @media only screen and (min-width: 768px) {
-  .footer .container {
+  .footer {
     padding-top: 75px;
   }
 }
@@ -66,7 +66,6 @@
   gap: 4px;
 }
 
-/*footer nav*/
 .footer-nav-link {
   display: block;
   text-align: center;
