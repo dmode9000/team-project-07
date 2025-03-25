@@ -1,4 +1,4 @@
-.hero-container {
+.hero {
   padding-top: 178px;
   padding-bottom: 122px;
 }
@@ -53,7 +53,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .hero-container {
+  .hero {
     padding-top: 180px;
     padding-bottom: 108px;
   }
@@ -79,7 +79,7 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .hero-container {
+  .hero {
     padding-top: 123px;
     padding-bottom: 90px;
   }
