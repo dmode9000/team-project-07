@@ -52,9 +52,13 @@
   color: rgba(251, 251, 251, 0.4);
 }
 
-.rent-input:focus,
 .rent-input:hover {
   border: 1px solid rgba(251, 251, 251, 0.5);
+}
+
+.rent-input:focus {
+  border: 1px solid var(--light-color);
+  outline: none;
 }
 
 .btn-rent {
