@@ -1,7 +1,6 @@
 /* reviews */
-.reviews .container {
-  padding-top: 40px;
-  padding-bottom: 40px;
+.reviews {
+  padding-block: 40px;
 }
 
 .reviews-title {
@@ -65,9 +64,8 @@
 }
 
 @media screen and (min-width: 768px) {
-  .reviews .container {
-    padding-top: 75px;
-    padding-bottom: 75px;
+  .reviews {
+    padding-block: 75px;
   }
 
   .reviews-title {
