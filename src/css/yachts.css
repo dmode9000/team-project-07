@@ -1,9 +1,12 @@
+.yacht-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .container-yachts {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
 }
 
 .yacht-title {
@@ -136,7 +139,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container-yachts {
+  .yacht-section {
     padding-top: 75px;
     padding-bottom: 75px;
   }
