@@ -4,6 +4,10 @@
   | default @import url()
   |============================
 */
+
+/* modern-normalize */
+@import url('modern-normalize-min.css');
+
 /* Common styles */
 @import url('./reset.css');
 @import url('./base.css');
@@ -16,7 +20,6 @@
 @import url('./about.css');
 @import url('./yachts.css');
 @import url('./advantages.css');
-/* @import url('./destinations.css'); */
 @import url('./rent.css');
 @import url('./reviews.css');
 @import url('./footer.css');
