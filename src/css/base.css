@@ -23,15 +23,15 @@
   );
   --bg-image-set-tel: image-set(
     url('/img/background/bg-tel.jpg') 1x,
-    url('/img/background/bg-tel@2x.jpg') 2x
+    url('/img/background/bg-tel@2x.webp') 2x
   );
   --bg-image-set-tab: image-set(
     url('/img/background/bg-tab.jpg') 1x,
-    url('/img/background/bg-tab@2x.jpg') 2x
+    url('/img/background/bg-tab@2x.webp') 2x
   );
   --bg-image-set-dsk: image-set(
     url('/img/background/bg-desk.jpg') 1x,
-    url('/img/background/bg-desk@2x.jpg') 2x
+    url('/img/background/bg-desk@2x.webp') 2x
   );
 }
 
