@@ -1,4 +1,4 @@
-.section-about .container {
+.section-about {
   padding-bottom: 40px;
   padding-top: 123px;
 }
@@ -51,7 +51,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .section-about .container {
+  .section-about {
     padding-top: 108px;
     padding-bottom: 75px;
   }
