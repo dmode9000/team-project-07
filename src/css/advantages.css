@@ -1,15 +1,21 @@
+.advantages {
+  padding-block: 40px;
+}
+
 .advantages .container {
   padding-inline: 20px;
-  padding-block: 40px;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
 }
 
 @media only screen and (min-width: 768px) {
+  .advantages {
+    padding-block: 75px;
+  }
+
   .advantages .container {
     padding-inline: 32px;
-    padding-block: 75px;
     gap: 32px;
   }
 }
