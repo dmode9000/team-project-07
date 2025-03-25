@@ -83,13 +83,6 @@
   fill: #055545;
 }
 
-.header-logo {
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: -0.03em;
-  color: var(--medium-color);
-}
-
 /* .header-close-mobmenu-btn {} */
 /* .header-close-mobmenu-icon {} */
 /* .header-open-mobmenu-btn {} */
