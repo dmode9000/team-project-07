@@ -1,7 +1,7 @@
-.rent-container {
-  padding-top: 40px;
-  padding-bottom: 40px;
+.rent-section {
+  padding-block: 40px;
 }
+
 .title {
   font-weight: 500;
   line-height: 1;
@@ -78,9 +78,8 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .rent-container {
-    padding-top: 75px;
-    padding-bottom: 75px;
+  .rent-section {
+    padding-block: 75px;
   }
 
   .title {
